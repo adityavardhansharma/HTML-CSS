@@ -1,0 +1,58 @@
+body {
+	background-color: #0077be; /* blue water color */
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	margin: 150px auto;
+	max-width: 500px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.9); /* white box with opacity */
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75); /* drop shadow */
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #0077be; /* blue water color */
+}
+
+input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+button[type=submit] {
+	background-color: #0077be; /* blue water color */
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	width: 100%;
+}
+
+button[type=submit]:hover {
+	background-color: #005b8e; /* darker blue water color */
+}
+
+.bottom-container {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.bottom-container a {
+	color: #0077be; /* blue water color */
+	text-decoration: none;
+}
+
+.bottom-container a:hover {
+	color: #005b8e; /* darker blue water color */
+}
